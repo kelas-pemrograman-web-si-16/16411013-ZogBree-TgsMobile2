@@ -31,7 +31,7 @@ public class intent1 extends AppCompatActivity {
                 String npm = edtNpm.getText().toString();
                 Intent a = null;
 
-                if (nama.equals("FARIDA")  && npm.equals("16411033")){
+                if (nama.equals("ZOG")  && npm.equals("16411013")){
                     a = new Intent(intent1.this, intent2.class);
                     a.putExtra("nama", edtNama.getText().toString());
                     a.putExtra("npm", edtNpm.getText().toString());
